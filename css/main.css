@@ -1,0 +1,356 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* убрать весь бордер а потом добавить где надо */
+/* header */
+
+header {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+#intro {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Первый див */
+
+#logo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#zzz {
+    width: 8%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logoTXT {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#nav1 {
+    height: 7%;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.5s color ease-out;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid rgb(255, 199, 4);
+    padding-bottom: 3%;
+    color: rgb(255, 199, 4);
+}
+
+.introBG {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Весь 1 див */
+#intro1 {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+}
+
+/* Второй див */
+
+/* весь 2 див */
+#intro2 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+h2 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+#h2-00 {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    display: flex;
+    justify-content:center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#h3-00 {
+    color: rgb(255, 255, 255);
+    font-size: 130px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+/* третий див */
+
+#forLine {
+    height: 10%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+#line {
+    width: 5%;
+    height: 1%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+/* весь 3 див */
+#intro3 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.nav-linkIN3 {
+    color: white;
+    text-decoration: none;
+    width: 12%;
+    height: 50%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Меин */
+main {
+    width: 100%;
+}
+
+#story_about_us {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*  h2 курсив (красивый)
+    h3 жирный шрифт 
+    h4 просто текст тонкикй
+    h5 просто текст чуть жирнее
+    font-weight: normal; толщина текста
+*/
+
+#forLine2 {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end; 
+    margin-top: 2%;
+}
+
+#lineR {
+    width: 5%;
+    height: 1%;
+    border: 3px solid rgb(243, 129, 129);
+}
+
+#text1 {
+  margin-top: 5%;
+}
+
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#h2-11 {
+    color: black;
+    font-size: 24px;
+}
+
+#h3-11 {
+    margin-top: 3%;
+    color: black;
+    font-size: 30px;
+}
+
+#text2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#h4-11 {
+    width: 70%;
+    margin-top: 2%;
+    color: black;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#img3111 {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.img1us {
+    margin: 2%;
+}
+
+#footerABOUTUS {
+    width: 100%;
+    background-color: rgb(14, 197, 164);
+    margin-top: 5%;
+    display: flex;
+    justify-content:center;
+}
+/* margin-top отступ */
+
+.divBLUE {
+    padding: 3%;
+    color: white;
+    border-left: 1px solid rgb(197, 231, 226);
+    border-right: 1px solid rgb(197, 231, 226);
+}
+
+.FUS {
+    font-size: 75px;
+    
+}
+
+.US1 {
+    font-size: 14px;
+}
+
+/* 2 часть */
+
+#weworkwith {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
+#service {
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.service1 {
+    flex: 1 1 0;
+    padding-left: 90px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.serv_i {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    z-index: 1;
+}
+
+#lineG {
+    margin-top: 2%;
+    width: 115vh;
+    border: 1px solid rgba(66, 66, 66, 0.658);
+}
+
+#U_D {
+    width: 100%;
+    height: 100%;
+}
+
+#UNIQUE_DESIGN {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#UNIQUE {
+    width: 100%;
+}
+
+#DBG {
+    margin-top: 2%;
+}
+
+#WWD {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#serv3 {
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.serv4 {
+    flex: 1 1 0;
+    padding-left: 90px;
+    padding-right: 30px;
+    position: relative;
+    border: 1px solid rgba(66, 66, 66, 0.658);
+    
+}
+
+.h5s1 {
+
+}
